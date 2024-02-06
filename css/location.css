@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    font-family: "Noto Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+#location-1 {
+    padding-top: 80px;
+    width: 100%;
+    height: 434px;
+    flex-shrink: 0;
+}
+
+.location-top-background {
+    background: url('../assets/images/location-header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.location-top-background>div {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 490px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.location-bottom-background {
+    background: url('../assets/images/location-header.png');
+    object-fit: fill;
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+#location-2 {
+    width: 100%;
+    flex-shrink: 0;
+    height: 623px;
+}
+
+.map {
+    width: 100%;
+    flex-shrink: 0;
+    height: 100%;
+    position: relative;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+}
+
+.location-box {
+    background-color: rgba(237, 237, 237, 0.87);
+    width: 333px;
+    z-index: 999;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.location-box>div:first-child {
+    background: #8F614E;
+    width: 256px;
+    height: 39px;
+    color: #FFF;
+    font-family: sans-serif;
+    vertical-align: middle;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+    line-height : 39px;
+}
+
+.location-box>div:last-child {
+    background: rgba(255, 255, 255, 0.93);
+    width: 256px;
+    height:506px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+    color: #715347;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+.location-box>div:last-child > p{
+    padding: 20px;
+}
