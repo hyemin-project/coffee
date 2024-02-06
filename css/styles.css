@@ -142,13 +142,15 @@
     
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 30px;
     position:relative;
     right: 10%;
+
 }
 
 .schdule{
     color: #FFF;
+    font-weight: bold;
 }
 
 
@@ -164,6 +166,7 @@
     background: url('/assets/img/menu-pic.png') no-repeat center center;
     background-size: cover;
     padding: 50px 0;
+    
   }
   
   .menu-section h2 {
@@ -174,7 +177,7 @@
 
   .cafe-text{
     text-align: left;
-    margin-left: 150px;
+    margin-left: 5%;
     margin-bottom: 20px;
     color: #9E5A3D;
     text-decoration: underline;
@@ -184,40 +187,54 @@
   .menu-items {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 25px;
   }
-  
+
+
   .menu-item {
     background: rgba(115, 74, 57, 0.88);
     padding: 20px;
     border-radius: 10px;
-    width: 200px; /* Adjust width as necessary */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Simple shadow */
+    width: 200px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     text-align: left;
   }
   
   .menu-item h3 {
-    color: #fff; /* Or any color you prefer */
+    color: #fff; 
     font-size: 1.5em;
+    margin-bottom: 10px;
   }
   
   .menu-item img {
-    width: 100%; /* Adjust as necessary */
+    width: 100%; 
     border-radius: 5px;
     margin-bottom: 10px;
   }
   
   .menu-item p {
     font-size: 0.9em;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     color: #FFFADA;
+  }
+
+  .menu-btn{
+    /* justify-content: space-evenly; */
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
   }
   
   .price {
     font-size: 1.2em;
     color: #fff; 
     font-weight: bold;
+
+    
+    
   }
+
   
   .menu-item button {
     background: #A0583C; 
@@ -226,6 +243,8 @@
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
+   
   }
   
   .menu-item button:hover {
