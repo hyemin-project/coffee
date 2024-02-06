@@ -1,20 +1,23 @@
 *{
     margin: 0;
     padding: 0;
-    height: 100%;
     font-family: 'Arial', sans-serif;
+
 } 
+
+/* hero section css  */
 .hero-section{
     position: relative;
     background: url(/assets/img/cafe-pic.png) no-repeat center center;
     background-size: cover;
     width: 100%;
-    height: 500px;
+    height: 700px;
+
         
 }
 
 .hero-content{
-    /* border: 3px solid red; */
+    
     width: 50%;
     height: auto;
     margin-left: 3rem;
@@ -23,7 +26,7 @@
 
 .hero-content h1{
     color: #ffffff;
-    margin-top: 5rem;
+    margin-top: 12rem;
     font-size: 2.5rem;
     margin-left: 3rem;
 
@@ -46,5 +49,109 @@
  font-weight: bold;
 
 }
+
+
+/* welcome section css */
+.welcome-section{
+    
+    background: url(/assets/img/welcome-pic.png) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+
+}
+
+.welcome-content{
+  
+    margin-left: 45rem;
+    padding-top: 15rem;
+
+}
+
+.welcome-content h1{
+    color: #471E22;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.welcome-content p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #533B2F;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+
+
+}
+
+.welcome-content button{
+    margin-left: 17rem;
+    padding: 12px 24px;
+    background-color:#B77E66 ;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+
+}
+
+/* open hours section css */
+.openhours-section{
+    background: url(/assets/img/opening-hours-pic.png)no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.openhours-container{
+    border: none;
+    display:flex;
+
+   
+}
+
+.openhours-container h1{
+    margin-top: 200px;
+    margin-left: 150px;
+    font-family: "Irish Grover";
+    color: #FFF;
+    padding: 15px 30px;
+    font-size: 50px;
+    font-weight: 400;
+    border-radius: 10px;
+    background: rgba(34, 27, 24, 0.60);
+    
+}
+
+
+
+td{
+   padding: 10px;
+   
+}
+
+
+.schedule-table{
+    margin-left: 50rem;
+    margin-top: -150px;
+    font-size: 20px;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;  
+}
+
+
+/* menu section css */
+
+
+
+
+
+
+
+
+  
 
 
