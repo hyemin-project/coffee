@@ -146,7 +146,79 @@ td{
 /* menu section css */
 
 
+.menu-section {
+    text-align: center;
+    background: url('/assets/img/menu-pic.png') no-repeat center center;
+    background-size: cover;
+    padding: 50px 0;
+  }
+  
+  .menu-section h2 {
+    font-size: 3em;
+    color: #8B4513; 
+    margin-bottom: 20px;
+  }
 
+  .cafe-text{
+    text-align: left;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    color: #9E5A3D;
+    text-decoration: underline;
+
+  }
+  
+  .menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .menu-item {
+    background: rgba(115, 74, 57, 0.88);
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px; /* Adjust width as necessary */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Simple shadow */
+    text-align: left;
+  }
+  
+  .menu-item h3 {
+    color: #fff; /* Or any color you prefer */
+    font-size: 1.5em;
+  }
+  
+  .menu-item img {
+    width: 100%; /* Adjust as necessary */
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item p {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    color: #FFFADA;
+  }
+  
+  .price {
+    font-size: 1.2em;
+    color: #fff; 
+    font-weight: bold;
+  }
+  
+  .menu-item button {
+    background: #A0583C; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .menu-item button:hover {
+    background: #B77E66; 
+  }
+  
 
 
 
