@@ -6,20 +6,45 @@
 } 
 .hero-section{
     position: relative;
-    background: url(/assets/img/index-header.png) no-repeat center center;
+    background: url(/assets/img/cafe-pic.png) no-repeat center center;
     background-size: cover;
+    width: 100%;
+    height: 500px;
         
 }
 
 .hero-content{
-    border: 3px solid red;
-
+    /* border: 3px solid red; */
+    width: 50%;
+    height: auto;
+    margin-left: 3rem;
+    
 }
 
 .hero-content h1{
-    color: white;
-    justify-content: center;
-    text-align: center;
+    color: #ffffff;
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    margin-left: 3rem;
+
+}
+
+.hero-content p{
+    color: #ffffff;
+    margin-left: 3rem;
+    margin-top:1rem;
+}
+
+.hero-btn{
+ padding: 15px 30px;
+ background-color:#B77E66 ;
+ color: #ffffff;
+ border-radius: 5px;
+ border: none;
+ margin-left: 3rem;
+ margin-top:2rem;
+ font-weight: bold;
+
 }
 
 
