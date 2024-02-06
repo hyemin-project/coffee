@@ -1,24 +1,25 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     height: 100%;
     font-family: 'Arial', sans-serif;
-} */
-
-/* .hero-section{
+} 
+.hero-section{
     position: relative;
     background: url(/assets/img/index-header.png) no-repeat center center;
-    
     background-size: cover;
-    overflow: hidden;
+        
+}
 
-    
-} */
+.hero-content{
+    border: 3px solid red;
 
-/* .hero-content{
+}
+
+.hero-content h1{
     color: white;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-} */
+    text-align: center;
+}
+
+
