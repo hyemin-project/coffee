@@ -317,6 +317,39 @@
     font-size: 0.8em;
 }
 
+/* Map section css */
+.map-section{
+    padding: 25px;
+    background: #E3D9D5;
+
+}
+.map-container {
+    max-width: 100%;
+    overflow: hidden;  
+    box-shadow: 20px 20px 10px 0px rgba(62, 47, 25, 0.20);
+    text-align: center;
+    margin: auto;
+    border: 8px solid #795341;
+  }
+  
+  .map-container iframe {
+    
+    width: 100%;
+    height: 250px; 
+    
+
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .map-container iframe {
+      height: 250px; 
+    }
+  }
+
+
+  
+
 
 
 
