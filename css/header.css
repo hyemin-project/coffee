@@ -18,10 +18,18 @@ li {
     list-style-type: none;
 }
 
+html,body{
+    width: 100%;
+}
+
 .hbody {
     width: 100%;
     height: 80px;
     /* background-color: #Ccc; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
 }
 
 .nav {
