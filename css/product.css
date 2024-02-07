@@ -131,7 +131,7 @@ body {
 #product-3 {
     width: 100%;
     flex-shrink: 0;
-    height: 600px;
+    height: 900px;
 }
 
 #product-3>h1 {
