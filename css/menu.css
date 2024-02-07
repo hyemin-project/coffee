@@ -41,10 +41,16 @@ body {
     justify-content: space-evenly;
 }
 
-.menu-content-item {
+.menu-item {
     margin: 2rem;
-    flex: 1 1 auto;
+    flex: 0.8 0.2 0.8 auto;
     flex-shrink: 0;
+}
+
+#slider{
+    border-right: dotted 1px black;
+    margin: 141px 15px;
+    padding-top: 50px;
 }
 
 .menu-content-inside {
