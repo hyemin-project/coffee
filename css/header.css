@@ -30,6 +30,7 @@ html,body{
     top: 0;
     left: 0;
     z-index: 999;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.23) 60.76%, rgba(0, 0, 0, 0.02) 100%);
 }
 
 .nav {
