@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+
+} 
+
+/* ----- hero section css ------ */
+.hero-section{
+    position: relative;
+    background: url(/assets/img/cafe-pic.png) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+
+        
+}
+
+.hero-content{
+    
+    width: 50%;
+    height: auto;
+    margin-left: 3rem;
+    
+}
+
+.hero-content h1{
+    color: #ffffff;
+    margin-top: 12rem;
+    font-size: 2.5rem;
+    margin-left: 3rem;
+
+}
+
+.hero-content p{
+    color: #ffffff;
+    margin-left: 3rem;
+    margin-top:1rem;
+}
+
+.hero-btn{
+ padding: 15px 30px;
+ background-color:#B77E66 ;
+ color: #ffffff;
+ border-radius: 5px;
+ border: none;
+ margin-left: 3rem;
+ margin-top:2rem;
+ font-weight: bold;
+
+}
+
+
+/* ----- welcome section css ------ */
+.welcome-section{
+    
+    background: url(/assets/img/welcome-pic.png) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+
+}
+
+.welcome-content{
+  
+    margin-left: 60%;
+    padding-top: 15%;
+
+
+
+}
+
+.welcome-content h1{
+    color: #471E22;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.welcome-content p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #533B2F;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+
+
+}
+
+.welcome-content button{
+    margin-left: 17rem;
+    padding: 12px 24px;
+    background-color:#B77E66 ;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+
+}
+
+/* ----- open hours section css ------ */
+.openhours-section{
+    background: url(/assets/img/opening-hours-pic.png)no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    
+    
+}
+
+.openhours-container{
+    width: 50%;
+    border: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.openhours-container h1{
+    font-family: "Irish Grover";
+    color: #FFF;
+    padding: 15px 30px;
+    font-size: 50px;
+    font-weight: 400;
+    border-radius: 10px;
+    background: rgba(34, 27, 24, 0.60);
+    
+}
+
+.schedule-container{
+    width:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    
+}
+
+.schedule-grid{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    position:relative;
+    right: 10%;
+
+}
+
+.schdule{
+    color: #FFF;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* ------ menu section css  ------- */
+
+
+.menu-section {
+    text-align: center;
+    background: url('/assets/img/menu-pic.png') no-repeat center center;
+    background-size: cover;
+    padding: 50px 0;
+    
+  }
+  
+  .menu-section h2 {
+    font-size: 3em;
+    color: #8B4513; 
+    margin-bottom: 20px;
+  }
+
+  .cafe-text{
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    color: #9E5A3D;
+    text-decoration: underline;
+
+  }
+  
+  .menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+
+
+  .menu-item {
+    background: rgba(115, 74, 57, 0.88);
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-align: left;
+  }
+  
+  .menu-item h3 {
+    color: #fff; 
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item img {
+    width: 100%; 
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item p {
+    font-size: 0.9em;
+    margin-bottom: 30px;
+    color: #FFFADA;
+  }
+
+  .menu-btn{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  
+  .price {
+    font-size: 1.2em;
+    color: #fff; 
+    font-weight: bold;
+
+  }
+
+  
+  .menu-item button {
+    background: #A0583C; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+   
+  }
+  
+  .menu-item button:hover {
+    background: #B77E66; 
+  }
+
+
+  /* ------ feedback section css ------- */
+
+  
+.testimonials-section {
+  background: url('/assets/img/feedback-pic.png') no-repeat center center; 
+  background-size: cover;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.testimonials-section h2 {
+  color: #ffffff; 
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 700;
+  
+}
+
+.testimonial {
+  display: inline-block;
+  background-color: rgba(88, 49, 21, 0.57); 
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.25);
+  margin: 10px 15px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+
+}
+
+.customer-photo {
+  border-radius: 50%; 
+  width: 80px; 
+  margin-bottom: 10px;
+}
+
+.star-rating {
+  color: #FFD700; 
+  margin-bottom: 10px;
+}
+
+.testimonial h3 {
+  color: #fff;
+  margin-bottom: 10px;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.6;
+
+}
+
+.testimonial p {
+  font-style: italic;
+  color: #D3CECE;
+  margin-bottom: 10px;
+}
+
+.customer-name {
+  display: block;
+  color: #54DD8B;
+  font-size: 0.8em;
+
+}
+
+.timestamp{
+    display: block;
+    color: #CACACA;;
+    font-size: 0.8em;
+}
+
+/* Map section css */
+.map-section{
+    padding: 25px;
+    background: #E3D9D5;
+
+}
+.map-container {
+    max-width: 100%;
+    overflow: hidden;  
+    box-shadow: 20px 20px 10px 0px rgba(62, 47, 25, 0.20);
+    text-align: center;
+    margin: auto;
+    border: 8px solid #795341;
+  }
+  
+  .map-container iframe {
+    
+    width: 100%;
+    height: 250px; 
+    
+
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .map-container iframe {
+      height: 250px; 
+    }
+  }
+
+
+  
+
+
+
+
+
+  
+
+
