@@ -1,6 +1,6 @@
 .site-footer {
-    background: url('/assets/img/footer.png') no-repeat center center; 
-    background-size: cover;
+  background: linear-gradient(rgba(241, 235, 235, 0.2), rgba(0, 0, 0, 0.8)), url('../assets/img/footer.png') no-repeat center center;
+
     color: white;
     padding: 40px 0;
     display: flex;
