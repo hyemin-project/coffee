@@ -131,7 +131,7 @@ body {
 #product-3>h1 {
     color: #291D15;
     text-align: center;
-    font-family: Poppins;
+    font-family: sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -160,7 +160,7 @@ body {
 #booking>div:first-child>span:first-child {
     color: #000;
     text-align: center;
-    font-family: Poppins;
+    font-family: sans-serif;
     font-size: 2rem;
     font-style: normal;
     font-weight: 400;
@@ -183,7 +183,7 @@ body {
 #booking>div:nth-child(2) {
     color: #F54848;
     text-align: left;
-    font-family: Poppins;
+    font-family: sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -197,7 +197,7 @@ body {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     color: #FFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: sans-serif;
     font-size: 24px;
     font-style: normal;
     width: 132px;
@@ -212,7 +212,7 @@ body {
     position: relative;
     width: 4rem;
     height: 4rem;
-    margin: 1rem;
+    margin-left: 1rem;
     border-radius: 50%;
 }
 
@@ -230,7 +230,7 @@ body {
     color: #000;
     position: absolute;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .button:hover .bg {
