@@ -9,7 +9,7 @@
 /* ----- hero section css ------ */
 .hero-section{
     position: relative;
-    background: url(/assets/img/cafe-pic.png) no-repeat center center;
+    background: url(../assets/img/cafe-pic.png) no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 700px;
@@ -56,7 +56,7 @@
 /* ----- welcome section css ------ */
 .welcome-section{
     
-    background: url(/assets/img/welcome-pic.png) no-repeat center center;
+    background: url(../assets/img/welcome-pic.png) no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 600px;
@@ -103,7 +103,7 @@
 
 /* ----- open hours section css ------ */
 .openhours-section{
-    background: url(/assets/img/opening-hours-pic.png)no-repeat center center;
+    background: url(../assets/img/opening-hours-pic.png)no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 400px;
@@ -167,7 +167,7 @@
 
 .menu-section {
     text-align: center;
-    background: url('/assets/img/menu-pic.png') no-repeat center center;
+    background: url('../assets/img/menu-pic.png') no-repeat center center;
     background-size: cover;
     padding: 50px 0;
     
@@ -257,7 +257,7 @@
 
   
 .testimonials-section {
-  background: url('/assets/img/feedback-pic.png') no-repeat center center; 
+  background: url('../assets/img/feedback-pic.png') no-repeat center center; 
   background-size: cover;
   text-align: center;
   padding: 50px 0;
